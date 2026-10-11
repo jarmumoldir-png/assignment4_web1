@@ -1,0 +1,55 @@
+:root {
+    --purple-dark: #3b1f6e;
+    --purple: #6a3fb5;
+    --purple-light: #b79ce8;
+    --purple-pale: #f3edfd;
+}
+
+body {
+    background-color: var(--purple-pale);
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #2c2c2c;
+    
+}
+
+h1, h2 {
+    color: var(--purple-dark);
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+.card-custom {
+    border: 1px solid var(--purple-light);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.btn-purple {
+    background-color: var(--purple);
+    border-color: var(--purple);
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background-color: var(--purple-dark);
+    border-color: var(--purple-dark);
+    color: #fff;
+}
+
+.btn-outline-purple {
+    color: var(--purple);
+    border-color: var(--purple);
+}
+
+.btn-outline-purple:hover {
+    background-color: var(--purple);
+    color: #fff;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--purple-light);
+    box-shadow: 0 0 0 0.2rem rgba(106, 63, 181, 0.25);
+}
